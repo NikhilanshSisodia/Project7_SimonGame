@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+/* Utilities Classes */
+
+.pink{
+    background-color: #d95980;
+}
+
+.orange{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #819ff9;
+}
+
+.blue{
+    background-color: #63aac0;
+}
+
+.flash{
+    background-color: #fff;
+}
+
+.userFlash{
+    background-color: rgb(130, 255, 130);
+}
+
+/* Heading */
+
+body{
+    display: flex;
+    text-align: center;
+    background-color: #ddd;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.guide{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid #000;
+    margin: 2rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
